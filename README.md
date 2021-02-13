@@ -1,2 +1,2 @@
 # Tutoriales
-Codigo de tutoriales
+code | Codigo 
