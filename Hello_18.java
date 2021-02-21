@@ -11,10 +11,11 @@ public class Hello_18 {
 		int [] arr4 = {1,2};
 		int [] arr5 = {1,2,3,4,5};
 		
-		System.out.println(arr1.equals(arr5));
-		System.out.println(Arrays.compare(arr1,arr2));
-		System.out.println(Arrays.compare(arr1,arr3));
-		System.out.println(Arrays.mismatch(arr1,arr4));
+		System.out.println("equals(): "+ arr1.equals(arr5));
+		System.out.println("compare (): "+ Arrays.compare(arr1,arr2));
+		System.out.println("compare(): "+ Arrays.compare(arr1,arr3));
+		System.out.println("mismatch(): "+Arrays.mismatch(arr1,arr4));
+		System.out.println("mismatch(): "+Arrays.mismatch(arr1,arr5));
 		
 		
 
